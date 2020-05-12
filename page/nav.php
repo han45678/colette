@@ -1,11 +1,14 @@
 <header id="header" class="header">
     <div class="wrap">
-        <svg id="hamOpenBtn" class="icon-hamburger"><use xlink:href="#icon-hamburger"/></svg>
+        <svg id="hamOpenBtn" class="icon-hamburger">
+            <use xlink:href="#icon-hamburger" /></svg>
         <a href="./about" class="menuForWeb  left">關於我們</a>
         <a href="./news" class="menuForWeb  left">最新消息</a>
-        <a href="./"class="logo"></a>
+        <a href="./" class="logo"></a>
         <a href="./products" class="menuForWeb  right">購買產品</a>
-        <div id="loginStatusPc-before-id" class="loginStatusPc active"><p>會員專區</p></div>
+        <div id="loginStatusPc-before-id" class="loginStatusPc active">
+            <p>會員專區</p>
+        </div>
         <div id="loginStatusPc-after-id" class="loginStatusPc">
             <p id="loginStatus-text">會員專區</p>
             <ul id="memberZonePc-id" class="memberZonePc">
@@ -16,18 +19,22 @@
                     <a href="./edit">編輯會員資料</a>
                 </li>
                 <li>
-                   <p class="logOut">登出會員</p> 
+                    <p class="logOut">登出會員</p>
                 </li>
             </ul>
         </div>
-        <svg id="buyOpenBtn" class="icon-buy"><use xlink:href="#icon-buy"/></svg>
+        <svg id="buyOpenBtn" class="icon-buy">
+            <use xlink:href="#icon-buy" /></svg>
     </div>
     <ul id="hamburgerList" class="hamburgerList">
-        <li class="topSpace"><svg id="hamDeleteBtn" class="icon-delete"><use xlink:href="#icon-delete"/></svg></li>
+        <li class="topSpace"><svg id="hamDeleteBtn" class="icon-delete">
+                <use xlink:href="#icon-delete" /></svg></li>
         <li class="listStyle"><a href="./about">關於我們</a></li>
         <li class="listStyle"><a href="./news">最新消息</a></li>
         <li class="listStyle"><a href="./products">購買產品</a></li>
-        <li id="loginStatus-before-id" class="listStyle loginStatus loginStatus-before active"><p>會員專區</p></li>
+        <li id="loginStatus-before-id" class="listStyle loginStatus loginStatus-before active">
+            <p>會員專區</p>
+        </li>
         <li id="loginStatus-after-id" class="listStyle loginStatus loginStatus-after">
             <p id="loginStatus-text">會員專區</p>
             <ul id="memberZone-id" class="memberZone">
@@ -38,7 +45,7 @@
                     <a href="./edit">編輯會員資料</a>
                 </li>
                 <li>
-                   <p class="logOut">登出會員</p> 
+                    <p class="logOut">登出會員</p>
                 </li>
             </ul>
         </li>
@@ -47,16 +54,21 @@
     <div class="shopcart">
         <div class="wrap">
             <div class="shopcartInner_Quantity">
-                <svg id="buyCloseBtn" class="icon-buy-close"><use xlink:href="#icon-buy"/></svg>
+                <svg id="buyCloseBtn" class="icon-buy-close">
+                    <use xlink:href="#icon-buy" /></svg>
                 <p>購物車（<span>２</span>）</p>
             </div>
             <div class="shopcartInner_content">
                 <ul class="contentList">
                     <li class="contentList-photo">
-                        <div class="photo" style=" background-image: url(./img/order_2.png);"></div>
+                        <a href="./products_fetch">
+                            <div class="photo" style=" background-image: url(./img/order_2.png);"></div>
+                        </a>
                     </li>
                     <li class="contentList-content">
-                        <p>格蕾朵</p>
+                        <a href="./products_fetch">
+                            <p>格蕾朵</p>
+                        </a>
                         <div class="price">
                             <span>$130</span>
                             <span>x 1</span>
@@ -68,10 +80,14 @@
                 </ul>
                 <ul class="contentList">
                     <li class="contentList-photo">
-                        <div class="photo" style=" background-image: url(./img/order_1.png);"></div>
+                        <a href="./products_fetch">
+                            <div class="photo" style=" background-image: url(./img/order_1.png);"></div>
+                        </a>
                     </li>
                     <li class="contentList-content">
-                        <p>格蕾朵</p>
+                        <a href="./products_fetch">
+                            <p>格蕾朵</p>
+                        </a>
                         <div class="price">
                             <span>$130</span>
                             <span>x 1</span>
@@ -89,7 +105,7 @@
                     <span>$250</span>
                 </div>
                 <div class="button checkout-btn">
-                   <a href="./cart">結帳</a> 
+                    <a href="./cart">結帳</a>
                 </div>
             </div>
         </div>
