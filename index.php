@@ -131,54 +131,54 @@
         <div class="productShow">
             <div class="wrap">
                 <div id="productShow" class="productList">
-                    <div class="product">
+                    <a href="./products" class="product">
                         <svg class="icon-cake">
                             <use xlink:href="#icon-cake" /></svg>
                         <div class="title-en">les Gateaux</div>
                         <div class="title-zh">蛋糕</div>
-                    </div>
-                    <div class="product">
+                    </a>
+                    <a href="./products" class="product">
                         <svg class="icon-pie">
                             <use xlink:href="#icon-pie" /></svg>
                         <div class="title-en">les Gateaux</div>
                         <div class="title-zh">鹹派</div>
-                    </div>
-                    <div class="product">
+                    </a>
+                    <a href="./products" class="product">
                         <svg class="icon-macaron">
                             <use xlink:href="#icon-macaron" /></svg>
                         <div class="title-en">les Gateaux</div>
                         <div class="title-zh">馬卡龍</div>
-                    </div>
-                    <div class="product">
+                    </a>
+                    <a href="./products" class="product">
                         <svg class="icon-cookie">
                             <use xlink:href="#icon-cookie" /></svg>
                         <div class="title-en">les Gateaux</div>
                         <div class="title-zh">餅乾</div>
-                    </div>
-                    <div class="product">
+                    </a>
+                    <a href="./products" class="product">
                         <svg class="icon-cake">
                             <use xlink:href="#icon-cake" /></svg>
                         <div class="title-en">les Gateaux</div>
                         <div class="title-zh">蛋糕</div>
-                    </div>
-                    <div class="product">
+                    </a>
+                    <a href="./products" class="product">
                         <svg class="icon-pie">
                             <use xlink:href="#icon-pie" /></svg>
                         <div class="title-en">les Gateaux</div>
                         <div class="title-zh">鹹派</div>
-                    </div>
-                    <div class="product">
+                    </a>
+                    <a href="./products" class="product">
                         <svg class="icon-macaron">
                             <use xlink:href="#icon-macaron" /></svg>
                         <div class="title-en">les Gateaux</div>
                         <div class="title-zh">馬卡龍</div>
-                    </div>
-                    <div class="product">
+                    </a>
+                    <a href="./products" class="product">
                         <svg class="icon-cookie">
                             <use xlink:href="#icon-cookie" /></svg>
                         <div class="title-en">les Gateaux</div>
                         <div class="title-zh">餅乾</div>
-                    </div>
+                    </a>
                 </div>
                 <div class="subtitle">Philosophy of Colett</div>
                 <svg class="icon-totem">
